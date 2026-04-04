@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# VITADATA SOLUTIONS
+
+![VITADATA SOLUTIONS Landing Preview](./public/vitadata-hero.png)
+
+VITADATA SOLUTIONS is a modern healthcare-focused web platform designed to present services, technology capabilities, and company information with a clean and trustworthy interface. The project focuses on responsive UI, reusable components, and scalable front-end architecture.
+
+## Project Overview
+
+This project is built as a production-ready front-end using the Next.js App Router architecture. The goal is to deliver a high-quality user experience for visitors while keeping the codebase maintainable for future feature updates.
+
+Core highlights:
+
+- Responsive layout for desktop and mobile screens
+- Reusable UI components powered by shadcn/ui
+- Tailwind CSS based styling system
+- Component-driven React architecture inside Next.js
+
+## Tech Stack
+
+- Next.js
+- React
+- Tailwind CSS
+- shadcn/ui
+
+## Design Reference
+
+Figma: https://www.figma.com/design/l4ZBW6U6ETCROLCoUpJO5q/VITADATA-SOLUTIONS?node-id=0-1&t=oPvNHOPYSxcuVuQS-1
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Contribution Guidelines
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We welcome contributions and improvements.
 
-## Learn More
+1. Fork the repository.
+2. Create a new feature branch.
+3. Make your changes with clear commit messages.
+4. Ensure the application builds and runs locally.
+5. Open a pull request with a short summary of what changed.
 
-To learn more about Next.js, take a look at the following resources:
+Recommended contribution areas:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- UI and responsiveness improvements
+- Performance optimization
+- Accessibility enhancements
+- Component refactoring and reuse
