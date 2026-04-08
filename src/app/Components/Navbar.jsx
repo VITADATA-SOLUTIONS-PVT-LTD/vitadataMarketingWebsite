@@ -82,7 +82,7 @@ export default function Navbar() {
 			<nav className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
 				{/* Logo */}
 				<Link href="#" className="flex items-center gap-2.5">
-					<img src="logo.svg" alt="VitaData Solutions logo" className="h-10 w-auto" />
+					<img src="/logo.svg" alt="VitaData Solutions logo" className="h-10 w-auto" />
 					<div className="flex flex-col leading-tight">
 						<span className="text-[15px] font-bold tracking-widest text-[#7a3e23] uppercase">
 							VITADATA
