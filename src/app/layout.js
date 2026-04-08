@@ -1,5 +1,7 @@
 import { Geist_Mono, Roboto } from "next/font/google";
 import "./globals.css";
+import Navbar from "./Components/Navbar";
+import PageFooter from "./Components/Footer";
 
 const roboto = Roboto({
   variable: "--font-sans",
@@ -22,7 +24,11 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${roboto.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="min-h-full flex flex-col font-sans">
+        <Navbar />
+        {children}
+        <PageFooter/>
+        </body>
     </html>
   );
 }
